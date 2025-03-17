@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: hello-cloudbuild:v1.0
+        image: hello-cloudbuild:v2.0
         ports:
         - containerPort: 8080
